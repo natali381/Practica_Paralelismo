@@ -2,8 +2,8 @@ import random
 from threading import Thread, Lock 
 import time 
 
-particulas = 3
-pasos = 4
+particulas = 100_000
+pasos = 100
 numHilos = 4  
 archivo = "Elementos.txt"
 
